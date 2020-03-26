@@ -9,12 +9,36 @@
   </head>
   <body>
     <div class="container">
+      <h1>Celebrity Dating Quiz</h1>
+      <p>We will suggest you which celebrity most compatible with you</p>
 
-hello
+      <form id="quiz">
+        <label for="name">Name</label>
+        <input id="name" type="text">
+        <label for="age">Enter you age</label>
+        <input id="age" type="text">
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <div>would you prefer to:</div>
+        <select id="prefer">
+          <option value="1">Go Hiking</option>
+          <option value="2">Go Shopping</option>
+          <option value="3">Go Swimming</option>
+        </select>
 
-
-
-
+        <button type="submit" class="btn">Show me</button>
+      </form>
+      <div class="hidden" id="vanessa">
+        <img src="img/Vanessa.png" alt="Vanessa Hudgens">
+      </div>
+      <div class="hidden" id="kylie">
+        <img src="img/Kylie.png" alt="Kylie Jenner">
+      </div>
+      <div class="hidden" id="ryan">
+        <img src="img/RyanR.png" alt="Ryan Reynolds">
+      </div>
       
     </div>
   </body>
